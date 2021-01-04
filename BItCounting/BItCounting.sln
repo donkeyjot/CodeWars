@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BItCounting", "BItCounting\BItCounting.csproj", "{1D0F3C19-28D6-4F16-8419-BE66A2E444EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D0F3C19-28D6-4F16-8419-BE66A2E444EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0F3C19-28D6-4F16-8419-BE66A2E444EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0F3C19-28D6-4F16-8419-BE66A2E444EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0F3C19-28D6-4F16-8419-BE66A2E444EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
