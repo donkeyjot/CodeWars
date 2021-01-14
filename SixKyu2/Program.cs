@@ -166,6 +166,23 @@ namespace SixKyu2
         //         RedY = RedY == 0 ? 1 : 0;
         //     }
         //
-        //     return RedY == 0 ? ("White", RedX) : ("Black", RedX);        
+        //     return RedY == 0 ? ("White", RedX) : ("Black", RedX); 
+        
+        
+        public static int[] TwoSum(int[] numbers, int target)
+        {
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                for (int j = 0 ; j < numbers.Length; j++)
+                {
+                    if (i != j && numbers[i] + numbers[j] == target)
+                    {
+                        return new []{i,j};
+                    }
+                }
+            }
+            return new []{-1,-1};
+        }
+               
     }
 }
